@@ -21,4 +21,5 @@ def fetch_word():
         raise Exception()
     except:
         return "Please pass valid 'h' and 'm' values as query parameters.", 400
-    return "Error occurred.", 500
+
+app.run()
